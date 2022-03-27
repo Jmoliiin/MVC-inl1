@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "BookMeeting";
+    Layout = "~/Views/Shared/_LayoutPageSecond.cshtml";
+}
+<div class="bg-blue-gradient">
+    <div class="container">
+        <partial name="_Navbar" />
+        <div id="navbar-header">
+            <h1>Book a meeting</h1>
+            <p><a asp-controller="Home" asp-action="Index">Home</a> | <a asp-controller="Contacts" asp-action="BookMeeting">Book Meeting</a></p>
+        </div>
+    </div>
+</div>
+<partial name="_formPartial" />
+

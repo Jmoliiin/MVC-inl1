@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@*lägg in partials för indexsidan.tex navbar,showcae osv*@
+
+<div class="bg-blue-gradient">
+    <div class="container">
+        <partial name="_Navbar" />
+        <partial name="_showcasePartialView" />
+    </div>
+</div>
+<partial name ="_aboutUsPartial"/>
+<partial name ="_introPartial"/>
+<partial name ="_formPartial"/>

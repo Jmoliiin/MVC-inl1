@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutPageSecond.cshtml";
+}
+
+<div class="bg-blue-gradient">
+    <div class="container">
+        <partial name="_Navbar"/>
+        <div id="navbar-header">
+            <h1>Contacts</h1>
+            <p><a asp-controller="Home" asp-action="Index">Home</a> | <a asp-controller="Contacts" asp-action="Index">Contact</a></p>
+        </div>
+    </div>
+</div>
+<partial name ="_ContactFormPartial"/>
+
